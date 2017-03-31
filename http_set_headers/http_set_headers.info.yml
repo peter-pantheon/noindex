@@ -1,0 +1,5 @@
+name: HTTP Set Headers
+type: module
+description: 'HTTP Set Headers to add a "X-Robots-Tag: noindex” header.'
+core: 8.x
+package: Other

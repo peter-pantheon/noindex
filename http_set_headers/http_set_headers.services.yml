@@ -1,0 +1,5 @@
+services:
+  http_set_headers:
+    class: '\Drupal\http_set_headers\EventSubscriber\SetHTTPHeaders'
+    tags:
+      - { name: 'event_subscriber' }
